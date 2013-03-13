@@ -23,6 +23,7 @@
 		2187F7DC16F1431600CF5697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2187F7B716F1431500CF5697 /* Foundation.framework */; };
 		2187F7E416F1431600CF5697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2187F7E216F1431600CF5697 /* InfoPlist.strings */; };
 		2187F7E716F1431600CF5697 /* Transition_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2187F7E616F1431600CF5697 /* Transition_StudyTests.m */; };
+		2187F7F116F143F700CF5697 /* FrontView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2187F7F016F143F700CF5697 /* FrontView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2187F7E316F1431600CF5697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2187F7E516F1431600CF5697 /* Transition_StudyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transition_StudyTests.h; sourceTree = "<group>"; };
 		2187F7E616F1431600CF5697 /* Transition_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transition_StudyTests.m; sourceTree = "<group>"; };
+		2187F7F016F143F700CF5697 /* FrontView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				2187F7D016F1431500CF5697 /* DRViewController.h */,
 				2187F7D116F1431500CF5697 /* DRViewController.m */,
 				2187F7BC16F1431500CF5697 /* Supporting Files */,
+				2187F7F016F143F700CF5697 /* FrontView.xib */,
 			);
 			path = "Transition Study";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				2187F7CA16F1431500CF5697 /* Default@2x.png in Resources */,
 				2187F7CC16F1431500CF5697 /* Default-568h@2x.png in Resources */,
 				2187F7CF16F1431500CF5697 /* MainStoryboard.storyboard in Resources */,
+				2187F7F116F143F700CF5697 /* FrontView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
