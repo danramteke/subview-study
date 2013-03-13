@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DRViewController : UIViewController
-- (IBAction)doTransition:(id)sender;
+
 
 -(IBAction)innerButtonPressed:(id)sender;
 @property (strong, nonatomic) IBOutlet UIView *parentView;

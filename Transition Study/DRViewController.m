@@ -17,22 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)doTransition:(id)sender {
     UIView* newView = [[[NSBundle mainBundle] loadNibNamed:@"FrontView" owner:self options:nil] objectAtIndex:0];
     [self.parentView addSubview:newView];
 }
 
 -(IBAction)innerButtonPressed:(id)sender {
-
-    _label.text = [NSString stringWithFormat:@"%@", [[NSDate date] description]];
+    _label.text = [[NSDate date] description];
 }
 @end
